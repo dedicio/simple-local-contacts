@@ -1,0 +1,41 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "cross-env vue-cli-service serve",
+    "build": "cross-env vue-cli-service build",
+    "exec": "cross-env VUE_CLI_BABEL_TARGET_NODE=true VUE_CLI_BABEL_TRANSPILE_MODULES=true jest --json",
+    "submit": "codenation-jest-score ./score-map.json",
+    "test": "cross-env VUE_CLI_BABEL_TARGET_NODE=true VUE_CLI_BABEL_TRANSPILE_MODULES=true jest"
+  },
+  "dependencies": {
+    "bootstrap-vue": "^2.1.0",
+    "codenation-jest-score": "https://github.com/thecodenation/codenation-jest-score/tarball/master",
+    "core-js": "^2.6.5",
+    "uuid": "^8.0.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.7",
+    "vuelidate": "^0.7.5",
+    "vuex": "^3.1.1",
+    "vuex-persist": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "bootstrap": "^4.3.1",
+    "cross-env": "^5.2.0",
+    "jest": "^24.8.0",
+    "jest-puppeteer": "^4.2.0",
+    "mutationobserver-shim": "^0.3.3",
+    "node-sass": "^4.9.0",
+    "popper.js": "^1.16.0",
+    "portal-vue": "^2.1.6",
+    "puppeteer": "^1.17.0",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-bootstrap-vue": "~0.6.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

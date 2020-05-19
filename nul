@@ -1,0 +1,8 @@
++ codenation-jest-score@1.0.2
+updated 1 package and audited 1487 packages in 21.488s
+
+38 packages are looking for funding
+  run `npm fund` for details
+
+found 2 vulnerabilities (1 moderate, 1 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
